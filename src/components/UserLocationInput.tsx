@@ -65,7 +65,7 @@ function UserLocationInput({ setCity }: Props) {
           </APIProvider>
         </form>
       </CardContent>
-      <CardFooter className='absolute bottom-[-5px]'>
+      <CardFooter>
         <AsciiArt src={classicBoom} height={256} width={256} fontSize={0.5} />
       </CardFooter>
     </>

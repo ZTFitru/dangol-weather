@@ -94,7 +94,7 @@ const WeatherDisplayMain = ({ city }: Props) => {
           </div>
         </div>
       </CardContent>
-      <CardFooter className='flex art justify-center flex-col absolute bottom-0'>
+      <CardFooter className='flex art justify-center flex-col'>
         {boom && (
           <AsciiArt src={boom} height={256} width={256} fontSize={0.3} />
         )}
